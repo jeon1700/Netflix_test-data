@@ -10,7 +10,7 @@ from app_choice import choice_app
 
 
 def main():
-    st.title('*Netflix 추천영화*')
+    st.title('*Netflix 추천*')
 
     menu = ['Home','Choice','Data']
 

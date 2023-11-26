@@ -7,6 +7,6 @@ def home_app():
    
     st.image(img_url)
    
-    st.text('소비자의 취향에 맞춰 추천영화가 나옵니다.')
+    st.text('소비자의 취향에 맞춰 추천장르가 나옵니다.')
     st.info('데이터 출저 : https://www.kaggle.com/datasets/maso0dahmed/netflix-movies-and-shows/')
     
