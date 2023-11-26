@@ -4,12 +4,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from app_home import home_app
-
+from app_data import data_app
+from app_choice import choice_app
 
 
 
 def main():
-    st.title('Netflix 추천영화')
+    st.title('*Netflix 추천영화*')
 
     menu = ['Home','Choice','Data']
 
@@ -20,7 +21,7 @@ def main():
     elif choice == menu[1] :
         pass
     elif choice == menu[2] :
-        pass
+        data_app()
 
 if __name__=='__main__' :
     main()
