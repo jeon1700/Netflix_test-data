@@ -19,7 +19,7 @@ def main():
     if choice == menu[0] :
         home_app()
     elif choice == menu[1] :
-        pass
+        choice_app()
     elif choice == menu[2] :
         data_app()
 
